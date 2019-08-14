@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Symantec_NortonShoppingGuarantee</name>
+    <version>1.0.8</version>
+    <stability>stable</stability>
+    <license uri="https://www.nortonshoppingguarantee.com/">Norton Shopping Guarantee</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Norton Shopping Guarantee delivers free protection for shoppers - and smart marketing for retailers. Add it to your website today to increase online conversion (+7%*), repeat buyers (+5%*) and overall customer satisfaction. It's guaranteed to deliver 20X ROI!&#xD;
+&#xD;
+Install now and call 1-855-822-2827 to complete account activation.</summary>
+    <description>Norton Shopping Guarantee is designed to provide shoppers added confidence and value - via a Guaranteed Shopping experience.&#xD;
+&#xD;
+The added confidence and value merchants provide buyers with Guaranteed Shopping translates directly and immediately into higher website profitability and increased customer satisfaction.  This program is proven to increase website conversion and sales and overall site profitability. Merchants also enjoy longer term benefits including increased buyer loyalty and increased repeat buyer rates.&#xD;
+&#xD;
+We guarantee for every dollar you invest in Norton Shopping Guarantee you will get a minimum of $20 in incremental top line revenue. We will prove the 20x ROI during the free trial using best practices a/b testing methodology. Using the Norton Shopping Guarantee program can make ecommerce businesses much more successful.</description>
+    <notes>Versions 1.0.8 - Norton Shopping Guarantee initial release with Re-formatted code for PSR-1/2 standards, improved security, and expanded compatibility with popular checkout extensions.&#xD;
+&#xD;
+Norton Shopping Guarantee is a tool that delivers free protection for shoppers - and smart marketing for retailers. Add it to your website today to increase online conversion (+7%*), repeat buyers (+5%*) and overall customer satisfaction. It's guaranteed to deliver 20X ROI!&#xD;
+&#xD;
+Install now and call 1-855-822-2827 to complete account activation.</notes>
+    <authors><author><name>Symantec Corporation</name><user>Symantec</user><email>CustomerSupport@NortonShoppingGuarantee.com</email></author></authors>
+    <date>2016-01-26</date>
+    <time>12:00:00</time>
+    <contents><target name="magecommunity"><dir name="Symantec"><dir name="NortonShoppingGuarantee"><dir name="Block"><file name="Image.php" hash="ea520bc2b8361c579a2d91c88d721125"/><file name="Seals.php" hash="3bd854e236c5c8c359c7e83303c98dff"/></dir><dir name="Helper"><file name="Data.php" hash="e3accdbbfb79c0db6103ebdec3ba91a5"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a1c0a124d7ea134762d1c93220f3295b"/><file name="config.xml" hash="460266c78f532cf5d41bb5e48a6f8993"/><file name="system.xml" hash="cccfb609e3ed22e1b3deedb37cc47c6b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Symantec_NortonShoppingGuarantee.xml" hash="8ac198ce4b51b31996abe98f24042971"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="nsg.xml" hash="68cbfaab0f70b8af780ad0f23eba2750"/></dir><dir name="template"><dir name="nsg"><file name="cornerseal.phtml" hash="eb56f6ee3b947087991a9758c88250bb"/><file name="guarantee.phtml" hash="155d7443c65e305950b5ea07d8a69332"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.12</max></php></required></dependencies>
+</package>

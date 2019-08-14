@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * Admin ACL configuration.
+ * 
+ * PHP Version 5
+ * 
+ * @category  Configuration
+ * @package   Symantec_NortonShoppingGuarantee
+ * @author    Symantec Corporation
+ * @copyright 2016 Symantec Corporation, All Rights Reserved.
+ */
+
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <nsg_options>
+                                        <title>Norton Shopping Guarantee Site Seal Configuration</title>
+                                    </nsg_options>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

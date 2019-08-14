@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * Module configuration.
+ * 
+ * PHP Version 5
+ * 
+ * @category  Configuration
+ * @package   Symantec_NortonShoppingGuarantee
+ * @author    Symantec Corporation
+ * @copyright 2016 Symantec Corporation, All Rights Reserved.
+ */
+
+-->
+<config>    
+    <modules>
+        <Symantec_NortonShoppingGuarantee>
+            <version>1.0.8</version>
+        </Symantec_NortonShoppingGuarantee>
+    </modules>
+    <global>
+        <models>
+            <nsg>
+                <class>Symantec_NortonShoppingGuarantee_Model</class>
+            </nsg>  
+        </models>
+        <helpers>
+            <nsg>
+                <class>Symantec_NortonShoppingGuarantee_Helper</class>
+            </nsg>
+        </helpers>
+        <blocks>
+            <nsg>
+                <class>Symantec_NortonShoppingGuarantee_Block</class>
+            </nsg>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <nsg>
+                    <file>nsg.xml</file>
+                </nsg>
+            </updates>
+        </layout>
+    </frontend>
+</config>
